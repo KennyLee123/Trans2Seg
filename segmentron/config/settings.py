@@ -55,7 +55,7 @@ cfg.TRAIN.BACKBONE_PRETRAINED = True
 # backbone pretrained model path, if not specific, will load from url when backbone pretrained enabled
 cfg.TRAIN.BACKBONE_PRETRAINED_PATH = ''
 # resume model path
-cfg.TRAIN.RESUME_MODEL_PATH = ''
+cfg.TRAIN.RESUME_MODEL_PATH = '/kaggle/input/research/41.pth'
 # whether to use synchronize bn
 cfg.TRAIN.SYNC_BATCH_NORM = True
 # save model every checkpoint-epoch
